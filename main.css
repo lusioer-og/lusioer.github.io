@@ -1,0 +1,66 @@
+#gif-container{
+    display: block;
+    margin: 50% auto 0 auto;
+    height: 200px;
+    width: 200px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffeccd;
+}
+
+#text {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    color: #f15a1d;
+    text-shadow: #413835 2px 2px 1px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#btn-container {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    }
+button {
+    display: flexbox;
+    width: 100px;
+    height: 40px;
+    padding: 5px 8px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    text-shadow: #6b493e 1px 1px 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#yes-button{
+    background-color: #FED3DD;
+}
+#no-button{
+    background-color: #C6E6E3;
+}
+#yes-button:hover{
+    background-color: #F2A2BD;
+    cursor: pointer;    
+    transition: width 0.2s;
+
+}
+
+#no-button:hover{
+    background-color: #82bfb7;
+    cursor: pointer;
+    transition: width 0.2s;
+}
